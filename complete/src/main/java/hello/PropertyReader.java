@@ -21,8 +21,8 @@ public class PropertyReader {
 
 			//input = new FileInputStream(Constants.CONFIG_FILE);
 			//input = new FileInputStream("/Users/ashokarulsamy/projects/poc/tally_client_upload_config.properties");
-			input = new FileInputStream("c:/test_tally/stock_upload.properties"); //stock upload
-			//input = new FileInputStream("c:/test_tally/day_book_upload.properties"); //day book upload
+			//input = new FileInputStream("c:/test_tally/stock_upload.properties"); //stock upload
+			input = new FileInputStream("c:/test_tally/day_book_upload.properties"); //day book upload
 			
 			// load a properties file
 			prop.load(input);
