@@ -35,6 +35,7 @@ public class PropertyReader {
 			propertyData.put(Constants.TALLY_DAY_BOOK, prop.getProperty(Constants.TALLY_DAY_BOOK));
 			propertyData.put(Constants.REQUEST_LIST, prop.getProperty(Constants.REQUEST_LIST));
 			propertyData.put(Constants.FILE_PATH, prop.getProperty(Constants.FILE_PATH));
+			propertyData.put(Constants.COMPANY_ID, prop.getProperty(Constants.COMPANY_ID));
 			
 		} catch (IOException ex) {
 			ex.printStackTrace();

@@ -13,4 +13,6 @@ public class Constants {
 	public static final String 	FILE_PATH = "FILE_PATH";
 	public static final String FILE_DELIMITER = "__";
 	public static final String FILE_EXTENSION = ".xml";
+	public static final String COMPANY_ID = "COMPANY_ID";
+	
 }
