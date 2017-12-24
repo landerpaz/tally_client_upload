@@ -12,6 +12,7 @@ public class Constants {
 	public static final String 	REQUEST_LIST = "REQUEST_LIST";
 	public static final String 	FILE_PATH = "FILE_PATH";
 	public static final String FILE_DELIMITER = "__";
+	public static final String UNDER_SCORE = "_";
 	public static final String FILE_EXTENSION = ".xml";
 	public static final String COMPANY_ID = "COMPANY_ID";
 	

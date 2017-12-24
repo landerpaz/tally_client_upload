@@ -130,7 +130,7 @@ public class Application {
 			    }
 			    log.info("Parsed Tally response");
 			    	
-		    	String fileName = new StringBuilder().append(configDetail.get(Constants.COMPANY_ID)).append(Constants.FILE_DELIMITER).append(tallyRequest).append(Constants.FILE_DELIMITER).append(Util.getCurrentdate()).append(Constants.FILE_EXTENSION).toString();
+		    	String fileName = new StringBuilder().append(configDetail.get(Constants.COMPANY_ID)).append(Constants.UNDER_SCORE).append(tallyRequest).append(Constants.FILE_DELIMITER).append(Util.getCurrentdate()).append(Constants.FILE_EXTENSION).toString();
 		    	
 		    	//write file
 		    	log.info("Creating file " + fileName);
